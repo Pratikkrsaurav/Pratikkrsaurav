@@ -13,9 +13,19 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Pratikkrsaurav
+
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+          # 🎨 Custom colors
+          color_snake: "#58A6FF"
+          color_dots: |
+            0:#161B22
+            1:#0E4429
+            2:#006D32
+            3:#26A641
+            4:#39D353
 
       - name: Push snake animation
         uses: crazy-max/ghaction-github-pages@v4
