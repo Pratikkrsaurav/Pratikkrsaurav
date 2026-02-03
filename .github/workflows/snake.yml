@@ -13,12 +13,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Pratikkrsaurav
-
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg
-
-          # 🎨 Custom colors
           color_snake: "#58A6FF"
           color_dots: |
             0:#161B22
