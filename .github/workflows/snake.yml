@@ -16,7 +16,7 @@ jobs:
 
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg
 
           # 🎨 Custom colors
           color_snake: "#58A6FF"
